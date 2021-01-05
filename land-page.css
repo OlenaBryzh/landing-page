@@ -133,7 +133,7 @@ iframe {
   justify-content: center;
 }
 
-.produkt {
+.product {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -144,7 +144,7 @@ iframe {
   margin: 0 10px;
 }
 
-.produkt >.prod-type {
+.product >.prod-type {
   text-transform: uppercase;
   color: #ffbb00;
   background-color: #16203b;  
@@ -178,6 +178,14 @@ h3 {
 
 .select:hover{
   color: #0c101c;
+}
+
+/*media query*/
+@media screen and (max-width: 600px) {
+  #pricing {
+    flex-direction: column;
+    margin: auto;
+  }
 }
 
 /*footer*/
